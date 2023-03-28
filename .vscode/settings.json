@@ -1,3 +1,5 @@
 {
-    "java.project.sourcePaths": ["hello"]
+    "java.project.sourcePaths": [
+        "src/main"
+    ]
 }

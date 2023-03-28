@@ -21,5 +21,12 @@ application {
 
 repositories {
     mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
 }
 
+dependencies { implementation name: 'algs4'}
+
+
+  

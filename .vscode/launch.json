@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "gradle_project_e8d13781"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -16,5 +23,6 @@
             "request": "launch",
             "mainClass": "hello.HelloWorld",
             "projectName": "gradle_project_e8d13781"
+        }
     ]
 }
