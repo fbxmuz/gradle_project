@@ -15,14 +15,8 @@
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "HelloWorld",
-            "request": "launch",
-            "mainClass": "hello.HelloWorld",
-            "projectName": "gradle_project_e8d13781"
+            "mainClass": "${file}",
+            "classPaths": ["libs/algs4"]
         }
     ]
 }
